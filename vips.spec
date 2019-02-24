@@ -31,7 +31,7 @@ Summary:	C/C++ library for processing large images
 Group:		System Environment/Libraries
 License:	LGPLv2+
 URL:		http://jcupitt.github.io/libvips/
-Source0:	https://github.com/jcupitt/libvips/releases/download/v%{version}/%{name}-%{version}.tar.gz
+Source0:	https://github.com/libvips/libvips/releases/download/v%{version}/%{name}-%{version}.tar.gz
 
 BuildRequires:	pkgconfig(glib-2.0)
 BuildRequires:	pkgconfig(gobject-introspection-1.0)
