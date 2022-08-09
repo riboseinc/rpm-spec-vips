@@ -25,7 +25,7 @@
 Name:		vips
 Epoch:	%{epoch_n}
 Version:	%{vips_version}
-Release:	1%{?dist}
+Release:	2%{?dist}
 Summary:	C/C++ library for processing large images
 
 Group:		System Environment/Libraries
@@ -235,6 +235,9 @@ find ${RPM_BUILD_ROOT}%{python3_sitearch} \
 
 
 %changelog
+* Mon Aug  8 2022 Jeffrey Lau <jeffrey.lau@ribose.com> - 8.5.5-2
+- Re-sign package
+
 * Fri May 19 2017 Ronald Tse <ronald.tse@ribose.com> - 8.5.5-1
 - Update to 8.5.5
 
